@@ -1,0 +1,8 @@
+build/
+gradle/
+.idea/
+.gradle/
+settings
+gradlew
+gradlew.bat
+out/
