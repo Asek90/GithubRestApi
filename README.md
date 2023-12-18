@@ -1,9 +1,7 @@
 # GithubRestApi
-Projekt GitHubRestApi jest aplikacją w Javie, która korzysta z interfejsu API GitHuba w celu pobrania informacji o repozytoriach na podstawie nazwy użytkownika. Projekt wykorzystuje framework Spring Boot do implementacji REST API, które zwraca nazwy repozytoriów, właścicieli oraz identyfikatory commitów. Po uruchomieniu, aplikacja będzie dostępna na adresie localhost:8080.
+Project GitHubRestApi is a Java application that utilizes the GitHub API to retrieve information about repositories based on a username. The project employs the Spring Boot framework to implement a REST API, which returns repository names, owners, and commit identifiers. Once launched, the application will be accessible at the address localhost:8080.
 
-# Użycie API
-Pobieranie informacji o repozytoriach użytkownika
-
-Aby pobrać informacje o repozytoriach na podstawie nazwy użytkownika, wykonaj zapytanie GET na endpoint localhost:8080/repositories/{username}, gdzie {username} to nazwa użytkownika na GitHubie.
-
-Przykład zapytania HTTP: GET /repositories/{username}
+# API Usage
+Retrieving information about user repositories
+To retrieve information about repositories based on a username, make a GET request to the endpoint localhost:8080/repositories/{username}, where {username} is the GitHub username.
+Example HTTP request: GET /repositories/{username}
